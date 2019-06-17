@@ -13,6 +13,7 @@
 		4D97E7FE1E8E55DC001B7025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FD1E8E55DC001B7025 /* Assets.xcassets */; };
 		4D97E8011E8E55DC001B7025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FF1E8E55DC001B7025 /* LaunchScreen.storyboard */; };
 		8ADA98E852FC1CB22D4D35FA /* Pods_JenkinsFastlaneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6370D1F2D0E785CFCCB4F2 /* Pods_JenkinsFastlaneExample.framework */; };
+		C40E4F4122B81ABA00B22653 /* JenkinsTestApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E4F4022B81ABA00B22653 /* JenkinsTestApp1Tests.swift */; };
 		C483000F22B6D58000CB63C3 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = C483000E22B6D58000CB63C3 /* Fastfile */; };
 		C483001722B6DC0B00CB63C3 /* .env.JenkinsTestApp3 in Resources */ = {isa = PBXBuildFile; fileRef = C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */; };
 		C483001822B6DC0B00CB63C3 /* .env.JenkinsTestApp1 in Resources */ = {isa = PBXBuildFile; fileRef = C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */; };
@@ -43,6 +44,16 @@
 		C483004722B6DFFD00CB63C3 /* Pluginfile in Resources */ = {isa = PBXBuildFile; fileRef = C483004622B6DFFD00CB63C3 /* Pluginfile */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C40E4F4322B81ABA00B22653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D97E7EB1E8E55DC001B7025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D97E7F21E8E55DC001B7025;
+			remoteInfo = JenkinsTestApp1;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97E7F61E8E55DC001B7025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +64,9 @@
 		4D97E8021E8E55DC001B7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5AA2522D78430D329802767 /* Pods-JenkinsFastlaneExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsFastlaneExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsFastlaneExample/Pods-JenkinsFastlaneExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B947906690CBAFFE96FB3117 /* Pods-JenkinsFastlaneExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsFastlaneExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsFastlaneExample/Pods-JenkinsFastlaneExample.release.xcconfig"; sourceTree = "<group>"; };
+		C40E4F3E22B81ABA00B22653 /* JenkinsTestApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E4F4022B81ABA00B22653 /* JenkinsTestApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestApp1Tests.swift; sourceTree = "<group>"; };
+		C40E4F4222B81ABA00B22653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C483000E22B6D58000CB63C3 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env.JenkinsTestApp3; sourceTree = "<group>"; };
 		C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env.JenkinsTestApp1; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ADA98E852FC1CB22D4D35FA /* Pods_JenkinsFastlaneExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E4F3B22B81ABA00B22653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +120,7 @@
 			children = (
 				C483000D22B6D58000CB63C3 /* fastlane */,
 				4D97E7F51E8E55DC001B7025 /* JenkinsFastlaneExample */,
+				C40E4F3F22B81ABA00B22653 /* JenkinsTestApp1Tests */,
 				4D97E7F41E8E55DC001B7025 /* Products */,
 				64CE2ECC85BCADC487D731B5 /* Pods */,
 				EFF0FA903C6D30736DB3D2FD /* Frameworks */,
@@ -113,6 +135,7 @@
 				4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */,
 				C483002F22B6DD7400CB63C3 /* JenkinsTestApp2.app */,
 				C483004422B6DD8100CB63C3 /* JenkinsTestApp3.app */,
+				C40E4F3E22B81ABA00B22653 /* JenkinsTestApp1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +160,15 @@
 				B947906690CBAFFE96FB3117 /* Pods-JenkinsFastlaneExample.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C40E4F3F22B81ABA00B22653 /* JenkinsTestApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C40E4F4022B81ABA00B22653 /* JenkinsTestApp1Tests.swift */,
+				C40E4F4222B81ABA00B22653 /* Info.plist */,
+			);
+			path = JenkinsTestApp1Tests;
 			sourceTree = "<group>";
 		};
 		C483000D22B6D58000CB63C3 /* fastlane */ = {
@@ -181,6 +213,24 @@
 			productReference = 4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C40E4F3D22B81ABA00B22653 /* JenkinsTestApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E4F4722B81ABA00B22653 /* Build configuration list for PBXNativeTarget "JenkinsTestApp1Tests" */;
+			buildPhases = (
+				C40E4F3A22B81ABA00B22653 /* Sources */,
+				C40E4F3B22B81ABA00B22653 /* Frameworks */,
+				C40E4F3C22B81ABA00B22653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40E4F4422B81ABA00B22653 /* PBXTargetDependency */,
+			);
+			name = JenkinsTestApp1Tests;
+			productName = JenkinsTestApp1Tests;
+			productReference = C40E4F3E22B81ABA00B22653 /* JenkinsTestApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C483001C22B6DD7400CB63C3 /* JenkinsTestApp2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C483002C22B6DD7400CB63C3 /* Build configuration list for PBXNativeTarget "JenkinsTestApp2" */;
@@ -223,7 +273,7 @@
 		4D97E7EB1E8E55DC001B7025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Christoph Herrmann";
 				TargetAttributes = {
@@ -231,6 +281,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 98CF9452A5;
 						ProvisioningStyle = Automatic;
+					};
+					C40E4F3D22B81ABA00B22653 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 98CF9452A5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D97E7F21E8E55DC001B7025;
 					};
 					C483001C22B6DD7400CB63C3 = {
 						DevelopmentTeam = 98CF9452A5;
@@ -256,6 +312,7 @@
 				4D97E7F21E8E55DC001B7025 /* JenkinsTestApp1 */,
 				C483001C22B6DD7400CB63C3 /* JenkinsTestApp2 */,
 				C483003122B6DD8100CB63C3 /* JenkinsTestApp3 */,
+				C40E4F3D22B81ABA00B22653 /* JenkinsTestApp1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +331,13 @@
 				4D97E7FC1E8E55DC001B7025 /* Main.storyboard in Resources */,
 				C483001722B6DC0B00CB63C3 /* .env.JenkinsTestApp3 in Resources */,
 				C483001822B6DC0B00CB63C3 /* .env.JenkinsTestApp1 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E4F3C22B81ABA00B22653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +440,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C40E4F3A22B81ABA00B22653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E4F4122B81ABA00B22653 /* JenkinsTestApp1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C483001E22B6DD7400CB63C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,6 +467,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40E4F4422B81ABA00B22653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D97E7F21E8E55DC001B7025 /* JenkinsTestApp1 */;
+			targetProxy = C40E4F4322B81ABA00B22653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4D97E7FA1E8E55DC001B7025 /* Main.storyboard */ = {
@@ -555,6 +635,55 @@
 			};
 			name = Release;
 		};
+		C40E4F4522B81ABA00B22653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JenkinsTestApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.ifs.jenkins.fastlane.test.unittest.JenkinsTestApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsTestApp1.app/JenkinsTestApp1";
+			};
+			name = Debug;
+		};
+		C40E4F4622B81ABA00B22653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JenkinsTestApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.ifs.jenkins.fastlane.test.unittest.JenkinsTestApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsTestApp1.app/JenkinsTestApp1";
+			};
+			name = Release;
+		};
 		C483002D22B6DD7400CB63C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5AA2522D78430D329802767 /* Pods-JenkinsFastlaneExample.debug.xcconfig */;
@@ -628,6 +757,15 @@
 			buildConfigurations = (
 				4D97E8061E8E55DC001B7025 /* Debug */,
 				4D97E8071E8E55DC001B7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40E4F4722B81ABA00B22653 /* Build configuration list for PBXNativeTarget "JenkinsTestApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E4F4522B81ABA00B22653 /* Debug */,
+				C40E4F4622B81ABA00B22653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

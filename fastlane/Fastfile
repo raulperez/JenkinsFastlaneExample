@@ -20,7 +20,7 @@ desc "Description of what the lane does"
 lane :CI do
 run_tests(project: "JenkinsFastlaneExample.xcodeproj",
 devices: ["iPhone 6s"],
-scheme: "JenkinsTestApp1")
+scheme: "JenkinsTestApp1Tests")
 end
 
 lane :CD do |values|
