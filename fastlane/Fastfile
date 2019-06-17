@@ -30,7 +30,7 @@ lane :beta do
     )
 
     upload_to_testflight(
-        app_identifier: "aero.jfs.test.internal.JenkinsTestApp1"
+        app_identifier: "aero.ifs.test.internal.JenkinsTestApp1"
     )
 end
 
