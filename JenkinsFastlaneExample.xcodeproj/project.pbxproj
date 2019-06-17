@@ -14,10 +14,37 @@
 		4D97E8011E8E55DC001B7025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FF1E8E55DC001B7025 /* LaunchScreen.storyboard */; };
 		8ADA98E852FC1CB22D4D35FA /* Pods_JenkinsFastlaneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6370D1F2D0E785CFCCB4F2 /* Pods_JenkinsFastlaneExample.framework */; };
 		C483000F22B6D58000CB63C3 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = C483000E22B6D58000CB63C3 /* Fastfile */; };
+		C483001722B6DC0B00CB63C3 /* .env.JenkinsTestApp3 in Resources */ = {isa = PBXBuildFile; fileRef = C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */; };
+		C483001822B6DC0B00CB63C3 /* .env.JenkinsTestApp1 in Resources */ = {isa = PBXBuildFile; fileRef = C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */; };
+		C483001922B6DC0B00CB63C3 /* .env.JenkinsTestApp2 in Resources */ = {isa = PBXBuildFile; fileRef = C483001622B6DC0B00CB63C3 /* .env.JenkinsTestApp2 */; };
+		C483001B22B6DC6C00CB63C3 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = C483001A22B6DC6C00CB63C3 /* Appfile */; };
+		C483001F22B6DD7400CB63C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7F81E8E55DC001B7025 /* ViewController.swift */; };
+		C483002022B6DD7400CB63C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7F61E8E55DC001B7025 /* AppDelegate.swift */; };
+		C483002222B6DD7400CB63C3 /* Pods_JenkinsFastlaneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6370D1F2D0E785CFCCB4F2 /* Pods_JenkinsFastlaneExample.framework */; };
+		C483002422B6DD7400CB63C3 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = C483001A22B6DC6C00CB63C3 /* Appfile */; };
+		C483002522B6DD7400CB63C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FF1E8E55DC001B7025 /* LaunchScreen.storyboard */; };
+		C483002622B6DD7400CB63C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FD1E8E55DC001B7025 /* Assets.xcassets */; };
+		C483002722B6DD7400CB63C3 /* .env.JenkinsTestApp2 in Resources */ = {isa = PBXBuildFile; fileRef = C483001622B6DC0B00CB63C3 /* .env.JenkinsTestApp2 */; };
+		C483002822B6DD7400CB63C3 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = C483000E22B6D58000CB63C3 /* Fastfile */; };
+		C483002922B6DD7400CB63C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FA1E8E55DC001B7025 /* Main.storyboard */; };
+		C483002A22B6DD7400CB63C3 /* .env.JenkinsTestApp3 in Resources */ = {isa = PBXBuildFile; fileRef = C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */; };
+		C483002B22B6DD7400CB63C3 /* .env.JenkinsTestApp1 in Resources */ = {isa = PBXBuildFile; fileRef = C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */; };
+		C483003422B6DD8100CB63C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7F81E8E55DC001B7025 /* ViewController.swift */; };
+		C483003522B6DD8100CB63C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E7F61E8E55DC001B7025 /* AppDelegate.swift */; };
+		C483003722B6DD8100CB63C3 /* Pods_JenkinsFastlaneExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6370D1F2D0E785CFCCB4F2 /* Pods_JenkinsFastlaneExample.framework */; };
+		C483003922B6DD8100CB63C3 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = C483001A22B6DC6C00CB63C3 /* Appfile */; };
+		C483003A22B6DD8100CB63C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FF1E8E55DC001B7025 /* LaunchScreen.storyboard */; };
+		C483003B22B6DD8100CB63C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FD1E8E55DC001B7025 /* Assets.xcassets */; };
+		C483003C22B6DD8100CB63C3 /* .env.JenkinsTestApp2 in Resources */ = {isa = PBXBuildFile; fileRef = C483001622B6DC0B00CB63C3 /* .env.JenkinsTestApp2 */; };
+		C483003D22B6DD8100CB63C3 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = C483000E22B6D58000CB63C3 /* Fastfile */; };
+		C483003E22B6DD8100CB63C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97E7FA1E8E55DC001B7025 /* Main.storyboard */; };
+		C483003F22B6DD8100CB63C3 /* .env.JenkinsTestApp3 in Resources */ = {isa = PBXBuildFile; fileRef = C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */; };
+		C483004022B6DD8100CB63C3 /* .env.JenkinsTestApp1 in Resources */ = {isa = PBXBuildFile; fileRef = C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */; };
+		C483004722B6DFFD00CB63C3 /* Pluginfile in Resources */ = {isa = PBXBuildFile; fileRef = C483004622B6DFFD00CB63C3 /* Pluginfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D97E7F31E8E55DC001B7025 /* JenkinsFastlaneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsFastlaneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97E7F61E8E55DC001B7025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D97E7F81E8E55DC001B7025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D97E7FB1E8E55DC001B7025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,6 +54,15 @@
 		B5AA2522D78430D329802767 /* Pods-JenkinsFastlaneExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsFastlaneExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsFastlaneExample/Pods-JenkinsFastlaneExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B947906690CBAFFE96FB3117 /* Pods-JenkinsFastlaneExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsFastlaneExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsFastlaneExample/Pods-JenkinsFastlaneExample.release.xcconfig"; sourceTree = "<group>"; };
 		C483000E22B6D58000CB63C3 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env.JenkinsTestApp3; sourceTree = "<group>"; };
+		C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env.JenkinsTestApp1; sourceTree = "<group>"; };
+		C483001622B6DC0B00CB63C3 /* .env.JenkinsTestApp2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env.JenkinsTestApp2; sourceTree = "<group>"; };
+		C483001A22B6DC6C00CB63C3 /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		C483002F22B6DD7400CB63C3 /* JenkinsTestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C483003022B6DD7500CB63C3 /* JenkinsTestApp1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "JenkinsTestApp1 copy-Info.plist"; path = "/Users/raul/Documents/repository/JenkinsFastlaneExample/JenkinsTestApp1 copy-Info.plist"; sourceTree = "<absolute>"; };
+		C483004422B6DD8100CB63C3 /* JenkinsTestApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C483004522B6DD8100CB63C3 /* JenkinsTestApp2 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "JenkinsTestApp2 copy-Info.plist"; path = "/Users/raul/Documents/repository/JenkinsFastlaneExample/JenkinsTestApp2 copy-Info.plist"; sourceTree = "<absolute>"; };
+		C483004622B6DFFD00CB63C3 /* Pluginfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pluginfile; sourceTree = "<group>"; };
 		FF6370D1F2D0E785CFCCB4F2 /* Pods_JenkinsFastlaneExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsFastlaneExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,6 +72,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ADA98E852FC1CB22D4D35FA /* Pods_JenkinsFastlaneExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483002122B6DD7400CB63C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483002222B6DD7400CB63C3 /* Pods_JenkinsFastlaneExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483003622B6DD8100CB63C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483003722B6DD8100CB63C3 /* Pods_JenkinsFastlaneExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,13 +102,17 @@
 				4D97E7F41E8E55DC001B7025 /* Products */,
 				64CE2ECC85BCADC487D731B5 /* Pods */,
 				EFF0FA903C6D30736DB3D2FD /* Frameworks */,
+				C483003022B6DD7500CB63C3 /* JenkinsTestApp1 copy-Info.plist */,
+				C483004522B6DD8100CB63C3 /* JenkinsTestApp2 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		4D97E7F41E8E55DC001B7025 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D97E7F31E8E55DC001B7025 /* JenkinsFastlaneExample.app */,
+				4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */,
+				C483002F22B6DD7400CB63C3 /* JenkinsTestApp2.app */,
+				C483004422B6DD8100CB63C3 /* JenkinsTestApp3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +142,12 @@
 		C483000D22B6D58000CB63C3 /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				C483001522B6DC0B00CB63C3 /* .env.JenkinsTestApp1 */,
+				C483001622B6DC0B00CB63C3 /* .env.JenkinsTestApp2 */,
+				C483001422B6DC0B00CB63C3 /* .env.JenkinsTestApp3 */,
 				C483000E22B6D58000CB63C3 /* Fastfile */,
+				C483001A22B6DC6C00CB63C3 /* Appfile */,
+				C483004622B6DFFD00CB63C3 /* Pluginfile */,
 			);
 			path = fastlane;
 			sourceTree = "<group>";
@@ -102,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D97E7F21E8E55DC001B7025 /* JenkinsFastlaneExample */ = {
+		4D97E7F21E8E55DC001B7025 /* JenkinsTestApp1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D97E8051E8E55DC001B7025 /* Build configuration list for PBXNativeTarget "JenkinsFastlaneExample" */;
+			buildConfigurationList = 4D97E8051E8E55DC001B7025 /* Build configuration list for PBXNativeTarget "JenkinsTestApp1" */;
 			buildPhases = (
 				1F7DD2EB0B36F9BF3486666F /* [CP] Check Pods Manifest.lock */,
 				4D97E7EF1E8E55DC001B7025 /* Sources */,
@@ -115,9 +176,45 @@
 			);
 			dependencies = (
 			);
-			name = JenkinsFastlaneExample;
+			name = JenkinsTestApp1;
 			productName = JenkinsFastlaneExample;
-			productReference = 4D97E7F31E8E55DC001B7025 /* JenkinsFastlaneExample.app */;
+			productReference = 4D97E7F31E8E55DC001B7025 /* JenkinsTestApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C483001C22B6DD7400CB63C3 /* JenkinsTestApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C483002C22B6DD7400CB63C3 /* Build configuration list for PBXNativeTarget "JenkinsTestApp2" */;
+			buildPhases = (
+				C483001D22B6DD7400CB63C3 /* [CP] Check Pods Manifest.lock */,
+				C483001E22B6DD7400CB63C3 /* Sources */,
+				C483002122B6DD7400CB63C3 /* Frameworks */,
+				C483002322B6DD7400CB63C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsTestApp2;
+			productName = JenkinsFastlaneExample;
+			productReference = C483002F22B6DD7400CB63C3 /* JenkinsTestApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C483003122B6DD8100CB63C3 /* JenkinsTestApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C483004122B6DD8100CB63C3 /* Build configuration list for PBXNativeTarget "JenkinsTestApp3" */;
+			buildPhases = (
+				C483003222B6DD8100CB63C3 /* [CP] Check Pods Manifest.lock */,
+				C483003322B6DD8100CB63C3 /* Sources */,
+				C483003622B6DD8100CB63C3 /* Frameworks */,
+				C483003822B6DD8100CB63C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsTestApp3;
+			productName = JenkinsFastlaneExample;
+			productReference = C483004422B6DD8100CB63C3 /* JenkinsTestApp3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,6 +232,12 @@
 						DevelopmentTeam = 98CF9452A5;
 						ProvisioningStyle = Automatic;
 					};
+					C483001C22B6DD7400CB63C3 = {
+						DevelopmentTeam = 98CF9452A5;
+					};
+					C483003122B6DD8100CB63C3 = {
+						DevelopmentTeam = 98CF9452A5;
+					};
 				};
 			};
 			buildConfigurationList = 4D97E7EE1E8E55DC001B7025 /* Build configuration list for PBXProject "JenkinsFastlaneExample" */;
@@ -150,7 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D97E7F21E8E55DC001B7025 /* JenkinsFastlaneExample */,
+				4D97E7F21E8E55DC001B7025 /* JenkinsTestApp1 */,
+				C483001C22B6DD7400CB63C3 /* JenkinsTestApp2 */,
+				C483003122B6DD8100CB63C3 /* JenkinsTestApp3 */,
 			);
 		};
 /* End PBXProject section */
@@ -160,10 +265,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C483001B22B6DC6C00CB63C3 /* Appfile in Resources */,
 				4D97E8011E8E55DC001B7025 /* LaunchScreen.storyboard in Resources */,
 				4D97E7FE1E8E55DC001B7025 /* Assets.xcassets in Resources */,
+				C483004722B6DFFD00CB63C3 /* Pluginfile in Resources */,
+				C483001922B6DC0B00CB63C3 /* .env.JenkinsTestApp2 in Resources */,
 				C483000F22B6D58000CB63C3 /* Fastfile in Resources */,
 				4D97E7FC1E8E55DC001B7025 /* Main.storyboard in Resources */,
+				C483001722B6DC0B00CB63C3 /* .env.JenkinsTestApp3 in Resources */,
+				C483001822B6DC0B00CB63C3 /* .env.JenkinsTestApp1 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483002322B6DD7400CB63C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483002422B6DD7400CB63C3 /* Appfile in Resources */,
+				C483002522B6DD7400CB63C3 /* LaunchScreen.storyboard in Resources */,
+				C483002622B6DD7400CB63C3 /* Assets.xcassets in Resources */,
+				C483002722B6DD7400CB63C3 /* .env.JenkinsTestApp2 in Resources */,
+				C483002822B6DD7400CB63C3 /* Fastfile in Resources */,
+				C483002922B6DD7400CB63C3 /* Main.storyboard in Resources */,
+				C483002A22B6DD7400CB63C3 /* .env.JenkinsTestApp3 in Resources */,
+				C483002B22B6DD7400CB63C3 /* .env.JenkinsTestApp1 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483003822B6DD8100CB63C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483003922B6DD8100CB63C3 /* Appfile in Resources */,
+				C483003A22B6DD8100CB63C3 /* LaunchScreen.storyboard in Resources */,
+				C483003B22B6DD8100CB63C3 /* Assets.xcassets in Resources */,
+				C483003C22B6DD8100CB63C3 /* .env.JenkinsTestApp2 in Resources */,
+				C483003D22B6DD8100CB63C3 /* Fastfile in Resources */,
+				C483003E22B6DD8100CB63C3 /* Main.storyboard in Resources */,
+				C483003F22B6DD8100CB63C3 /* .env.JenkinsTestApp3 in Resources */,
+				C483004022B6DD8100CB63C3 /* .env.JenkinsTestApp1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +311,42 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		1F7DD2EB0B36F9BF3486666F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsFastlaneExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C483001D22B6DD7400CB63C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsFastlaneExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C483003222B6DD8100CB63C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,6 +373,24 @@
 			files = (
 				4D97E7F91E8E55DC001B7025 /* ViewController.swift in Sources */,
 				4D97E7F71E8E55DC001B7025 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483001E22B6DD7400CB63C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483001F22B6DD7400CB63C3 /* ViewController.swift in Sources */,
+				C483002022B6DD7400CB63C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C483003322B6DD8100CB63C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C483003422B6DD8100CB63C3 /* ViewController.swift in Sources */,
+				C483003522B6DD8100CB63C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +535,7 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = JenkinsFastlaneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -355,7 +549,63 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = JenkinsFastlaneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C483002D22B6DD7400CB63C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AA2522D78430D329802767 /* Pods-JenkinsFastlaneExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				INFOPLIST_FILE = "JenkinsTestApp1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C483002E22B6DD7400CB63C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B947906690CBAFFE96FB3117 /* Pods-JenkinsFastlaneExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				INFOPLIST_FILE = "JenkinsTestApp1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C483004222B6DD8100CB63C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AA2522D78430D329802767 /* Pods-JenkinsFastlaneExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				INFOPLIST_FILE = "JenkinsTestApp2 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C483004322B6DD8100CB63C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B947906690CBAFFE96FB3117 /* Pods-JenkinsFastlaneExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98CF9452A5;
+				INFOPLIST_FILE = "JenkinsTestApp2 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -373,11 +623,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D97E8051E8E55DC001B7025 /* Build configuration list for PBXNativeTarget "JenkinsFastlaneExample" */ = {
+		4D97E8051E8E55DC001B7025 /* Build configuration list for PBXNativeTarget "JenkinsTestApp1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D97E8061E8E55DC001B7025 /* Debug */,
 				4D97E8071E8E55DC001B7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C483002C22B6DD7400CB63C3 /* Build configuration list for PBXNativeTarget "JenkinsTestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C483002D22B6DD7400CB63C3 /* Debug */,
+				C483002E22B6DD7400CB63C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C483004122B6DD8100CB63C3 /* Build configuration list for PBXNativeTarget "JenkinsTestApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C483004222B6DD8100CB63C3 /* Debug */,
+				C483004322B6DD8100CB63C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
