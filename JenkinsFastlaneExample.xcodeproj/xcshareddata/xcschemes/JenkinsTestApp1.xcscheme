@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79786492C81B5FED05D81EA3FDC8A6D3"
-               BuildableName = "Pods_JenkinsFastlaneExample.framework"
-               BlueprintName = "Pods-JenkinsFastlaneExample"
+               BlueprintIdentifier = "61DB796E997D892C9897A77D62480DEE"
+               BuildableName = "Pods_JenkinsTestApp1.framework"
+               BlueprintName = "Pods-JenkinsTestApp1"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
