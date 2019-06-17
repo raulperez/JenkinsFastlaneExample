@@ -1,86 +1,41 @@
-default_platform :ios
-puts "Upload to Testflight"
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
 
-fastlane_require 'dotenv'
-fastlane_require 'trainer'
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
 
-ENV['FASTLANE_XCODEBUILD_SETTINGS_RETRIES'] = "120" // this is required to run to retry the xcode build job to retry if fails
+default_platform(:ios)
 
+platform :ios do
+desc "Description of what the lane does"
+lane :CI do
+run_tests(project: "JenkinsFastlaneExample.xcworkspace",
+devices: ["iPhone 6s"],
+scheme: "JenkinsTestApp1")
+end
 
-//avoid hardcoding password try to access the password from Jenkins environment variable script
+lane :CD do |values|
 
-ENV['FASTLANE_PASSWORD'] = "ringsted123IFS!" . // your itunes connect passowrd
+gym(scheme: 'JenkinsTestApp1', project: "JenkinsFastlaneExample.xcworkspace", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
 
-lane :uploadToBeta  do
-# build your iOS app
+emails = values[:test_email] ? values[:test_email] : ['[email]'] # You can list more emails here
+groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
 
-//avoid hardcoding password try to access the password from Jenkins environment variable script
-unlock_keychain(path: "login.keychain", password:"GomezAguilar123RAU!") // need to unlock keychain for accesing private key for provisoning profile
+crashlytics(api_token: '[CRASHLYTICS_API_TOKEN]',
+build_secret: '[CRASHLYTICS_ORG_SECRET]',
+emails: emails,
+groups: groups,
+notes: 'Distributed with fastlane', # Check out the changelog_from_git_commits action
+notifications: true) # Should this distribution notify your testers via email?
 
-clean_build_artifacts # Delete the local dSYM files
-
-clear_derived_data
-
-clean_cocoapods_cache
-
-desc "Increment version number"
-xcodeproj = "./JenkinsFastlaneExample.xcodeworkspace"
-target = ENV['JenkinsTestApp1']
-version = get_build_number_from_plist(
-xcodeproj: xcodeproj,
-target: target,
-)
-version_array = version.split(".").map(&:to_i)
-#version_array[0] = version_array[0] + 1
-#version_array[1] = version_array[1] = 0
-#version_array[1] = version_array[2] = 0
-version_array[4] = version_array[4] + 1
-next_version_number = version_array.join(".")
-puts next_version_number
-puts "Using build number: #{version}"
-increment_build_number_in_plist(
-build_number: next_version_number,
-target: ENV['JenkinsTestApp1']
-)
-
-gym(
-scheme: ENV['JenkinsTestApp1'],
-export_method:"app-store"
-export_xcargs: "-allowProvisioningUpdates",
-include_bitcode: false,
-export_options: {
-uploadBitcode: false,
-uploadSymbols: false,
-compileBitcode: false,
-provisioningProfiles: {
-ENV['aero.jfs.jenkins.fastlane.JenkinsTestApp1'] => ENV['DistJenkinsTestApp1']
-},
-"signingStyle": "manual"
-}
-
-)
-desc "upload to Testflight"
-
-pilot(changelog:"#{:last_git_commit_message}",app_identifier: ENV['aero.jfs.jenkins.fastlane.JenkinsTestApp1'],skip_waiting_for_build_processing: true,notify_external_testers:false,distribute_external:false)
-
-#,groups: ["testers"]
-
-#desc "Send notification in Slack"
-
-#slack(
-#message: "Testflight  build of #{ENV['APP_NAME']}- Version- #{next_version_number} is uploaded successfully. It will be available in #Testflight soon , depends on iTunes's processing time . Thanks :) ",
-#success: true,
-#use_webhook_configured_username_and_icon: true,
-#slack_url: "https://hooks.slack.com/services/ss/sss/sss",
-#default_payloads: [:git_branch, :last_git_commit_message],
-#attachment_properties: {
-#fields: [
-#{
-#title: "Build number",
-#value: "#{next_version_number}",
-#}
-#]
-#}
-#)
-
+end
 end
