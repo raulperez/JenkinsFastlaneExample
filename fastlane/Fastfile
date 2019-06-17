@@ -25,7 +25,7 @@ end
 
 lane :CD do |values|
 
-gym(scheme: 'JenkinsTestApp1', project: "JenkinsFastlaneExample.xcworkspace", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
+gym(scheme: 'JenkinsTestApp1', project: "JenkinsFastlaneExample.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
 
 emails = values[:test_email] ? values[:test_email] : ['[email]'] # You can list more emails here
 groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
