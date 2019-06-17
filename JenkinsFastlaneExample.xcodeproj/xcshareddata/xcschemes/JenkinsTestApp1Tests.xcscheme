@@ -34,6 +34,20 @@
                ReferencedContainer = "container:JenkinsFastlaneExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "79786492C81B5FED05D81EA3FDC8A6D3"
+               BuildableName = "Pods_JenkinsFastlaneExample.framework"
+               BlueprintName = "Pods-JenkinsFastlaneExample"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -94,15 +108,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D97E7F21E8E55DC001B7025"
-            BuildableName = "JenkinsTestApp1.app"
-            BlueprintName = "JenkinsTestApp1"
-            ReferencedContainer = "container:JenkinsFastlaneExample.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
