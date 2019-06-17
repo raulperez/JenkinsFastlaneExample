@@ -1,5 +1,5 @@
 
-app_identifier "aero.jfs.jenkins.fastlane.JenkinsTestApp1" # The bundle identifier of your app
+app_identifier "aero.jfs.test.internal.JenkinsTestApp1" # The bundle identifier of your app
 apple_id "rpg@ifs.aero" # Your Apple email address
 
 team_id "[[P49GGRL8FW]]"  # Developer Portal Team ID

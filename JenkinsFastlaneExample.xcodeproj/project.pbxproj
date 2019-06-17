@@ -267,7 +267,7 @@
 				TargetAttributes = {
 					4D97E7F21E8E55DC001B7025 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 98CF9452A5;
+						DevelopmentTeam = P49GGRL8FW;
 						ProvisioningStyle = Automatic;
 					};
 					C40E4F3D22B81ABA00B22653 = {
@@ -581,10 +581,10 @@
 			baseConfigurationReference = B4433EEF45679CD05DD312BA /* Pods-JenkinsTestApp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 98CF9452A5;
+				DEVELOPMENT_TEAM = P49GGRL8FW;
 				INFOPLIST_FILE = JenkinsFastlaneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -595,10 +595,10 @@
 			baseConfigurationReference = 8C8FA164FC9B1F91666EAFD1 /* Pods-JenkinsTestApp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 98CF9452A5;
+				DEVELOPMENT_TEAM = P49GGRL8FW;
 				INFOPLIST_FILE = JenkinsFastlaneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -662,7 +662,7 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = "JenkinsTestApp1 copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -675,7 +675,7 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = "JenkinsTestApp1 copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -688,7 +688,7 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = "JenkinsTestApp2 copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp3;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -701,7 +701,7 @@
 				DEVELOPMENT_TEAM = 98CF9452A5;
 				INFOPLIST_FILE = "JenkinsTestApp2 copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.jenkins.fastlane.JenkinsTestApp3;
+				PRODUCT_BUNDLE_IDENTIFIER = aero.jfs.test.internal.JenkinsTestApp3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
